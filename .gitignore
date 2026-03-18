@@ -1,0 +1,15 @@
+# Exclude personal documents and sensitive setup files
+VPS_MAINTENANCE_GUIDE.md
+cv_text.txt
+1734705030892_NEW.PNG
+
+# Exclude old backend files
+main.py.bak
+templates.bak/
+requirements.txt
+__pycache__/
+
+# Common Python/IDE ignores
+.vscode/
+.idea/
+*.pyc
