@@ -61,8 +61,11 @@ document.addEventListener('DOMContentLoaded', () => {
             btn.disabled = true;
 
             try {
-                const response = await fetch('/contact', {
+                const response = await fetch('https://formsubmit.co/ajax/mcroan0101@gmail.com', {
                     method: 'POST',
+                    headers: {
+                        'Accept': 'application/json'
+                    },
                     body: formData
                 });
 
